@@ -1,0 +1,17 @@
+package springboot.example;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+//@RestController
+public class Application {
+   /* @RequestMapping("/")
+    String home() {
+        return "hello";
+    }*/
+
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+}
